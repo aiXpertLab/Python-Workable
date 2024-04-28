@@ -1,4 +1,6 @@
 import  openai 
+from langchain_community.callbacks.manager import get_openai_callback
+
 client = openai.OpenAI()
 # openai.api_key = os.environ.get("OPENAI_API_KEY")
 # defaults to getting the key using os.environ.get("OPENAI_API_KEY")
